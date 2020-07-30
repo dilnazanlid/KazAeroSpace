@@ -1,0 +1,209 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+a:hover{
+    color: #df89;
+}
+
+.headerOut{
+  background: #020a40;
+  color: white;
+}
+.headerIn{
+  background: transparent;
+  color: #dce8f2;
+}
+.intro{
+  position: relative;
+  background: #3476cb;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  justify-content:center;
+  align-items: center;
+}
+.intro img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.75;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.intro h2{
+  z-index: 1000;
+  color: #fff;
+  opacity: 1;
+}
+
+.intro div{
+  margin-top: -100px;  
+}
+
+.brandName{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.about{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.about-content{
+  background: #162c3b;
+  padding: 100px;
+}
+.heading{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.text{
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.values{
+  position: relative;
+  padding: 30px;
+  padding-left: 0px;
+}
+.values-box{
+  display: flex;
+  padding: 20px;
+  opacity: 1;
+}
+.values-box div{
+  padding-left: 20px;
+  color: #fff;
+  font-size:16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.values-box i{
+  font-size: 30px;
+}
+
+.services{
+  background: #12222d;
+  padding: 100px;
+  text-align: center;
+}
+.services p{
+  margin-top: 20px;
+  color: white;
+}
+
+.services-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.services-container .service{
+  position: relative;
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+
+.service:hover{
+  transform: rotateY(180deg);
+}
+
+.service h2{
+  letter-spacing: 1px;
+}
+
+.front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 1px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.back h2{
+  font-weight: 700;
+}
+
+.projects{
+  background: #3f8ffc;
+  width: 100%;
+  height: auto;
+  padding-top: 300px;
+  margin-top: -350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects p{
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.partners{
+  background: #162c3b;
+  padding: 100px;
+  text-align: center;
+}
+
+.partners img{
+  opacity: 0.25;
+  cursor: pointer;
+}
+
+.partners img:hover{
+  opacity: 1;
+}
+
+.contact{
+  background: #12222d;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.info{
+  height: 500px;
+}
+
+.contact .image{
+  background: #ff003c;
+}
+
+.info p, li{
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: square;
+}
